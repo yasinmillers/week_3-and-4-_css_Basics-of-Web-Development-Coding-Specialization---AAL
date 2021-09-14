@@ -1,0 +1,333 @@
+body {
+    padding: 1px;
+    margin: 1px;
+    background: #fff;
+    color: #000;
+    font-size: 1.1rem;
+    line-height: 1;
+}
+
+img {
+    max-width: 100%;
+}
+
+abbr {
+    border-bottom: 1px dotted #0080ff;
+    text-decoration: none;
+    cursor: help;
+}
+
+header {
+    text-align: center;
+    min-height: 200px;
+    background: url("../images/flywheel.jpg") top center no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: auto;
+    padding: 1%;
+    background-color: #c0c0c0;
+}
+
+header h1 {
+    line-height: 2.8rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 3rem;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+}
+
+nav {
+    padding: 39px 0;
+    text-align: center;
+}
+
+nav a:link,
+nav a:visited {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 1rem 4.2rem;
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 2.2rem;
+    border-radius: 3px;
+    color: #000;
+    margin-right: 2rem;
+    word-break: keep-all;
+    white-space: nowrap;
+}
+
+nav a:hover,
+nav a:active {
+    background-color: rgba(255, 255, 255, 1);
+    transition: 500ms;
+}
+
+nav a.active {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+main {
+    width: 100%;
+    overflow: hidden;
+}
+
+aside.left {
+    float: left;
+    width: 24%;
+    height: auto;
+    display: inline-block;
+    background: #808000;
+    padding: 3%;
+}
+
+aside.left img {
+    border: 2px solid #000;
+    margin: 1rem 0;
+    /* width: 80%; */
+}
+
+section.right {
+    float: right;
+    width: 68%;
+    display: inline-block;
+    padding: 2px;
+}
+
+p {
+    font-family: "Palatino Linotype", "Book Antiqua", "Palatino", "serif";
+    font-size: 20px;
+}
+
+table {
+    padding: 2%;
+    margin: 0 auto;
+    line-height: 50px;
+    width: 75%;
+    padding-bottom: 5%;
+}
+
+
+/* Table Header Styling */
+
+th {
+    background-color: #5d7731;
+    padding: 1%;
+    font-variant: small-caps;
+    font-size: 100%;
+    color: #ffffff;
+    line-height: 40px;
+    border-radius: 5px 9px 0 0;
+    border-bottom: 2px solid #10f010;
+}
+
+
+/*Make the table text in two columns to the right centered*/
+
+th,
+tr td {
+    text-align: center;
+}
+
+
+/*Make the table text in the column to the left left-aligned*/
+
+th:first-child,
+tr td:first-child {
+    text-align: left;
+}
+
+
+/* Set opacity of table rows*/
+
+tr td {
+    opacity: 0.5;
+}
+
+
+/*Change opacity of table rows when hovered over*/
+
+tr:hover td {
+    opacity: 1;
+    color: #517bf0;
+    font-weight: bold;
+    font-size: 100%;
+    line-height: 60px;
+}
+
+
+/*Styling the table cells*/
+
+td {
+    background-color: #90EE90;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 90%;
+    border-bottom: 2px solid #ffffff;
+}
+
+
+/********** Large devices only **********/
+
+@media (min-width: 992px) {
+    .col-lg-1,
+    .col-lg-2,
+    .col-lg-3,
+    .col-lg-4,
+    .col-lg-5,
+    .col-lg-6,
+    .col-lg-7,
+    .col-lg-8,
+    .col-lg-9,
+    .col-lg-10,
+    .col-lg-11,
+    .col-lg-12 {
+        float: left;
+    }
+    .col-lg-1 {
+        width: 8.33%;
+    }
+    .col-lg-2 {
+        width: 16.66%;
+    }
+    .col-lg-3 {
+        width: 25%;
+    }
+    .col-lg-4 {
+        width: 33.33%;
+    }
+    .col-lg-5 {
+        width: 41.66%;
+    }
+    .col-lg-6 {
+        width: 50%;
+    }
+    .col-lg-7 {
+        width: 58.33%;
+    }
+    .col-lg-8 {
+        width: 66.66%;
+    }
+    .col-lg-9 {
+        width: 74.99%;
+    }
+    .col-lg-10 {
+        width: 83.33%;
+    }
+    .col-lg-11 {
+        width: 91.66%;
+    }
+    .col-lg-12 {
+        width: 100%;
+    }
+}
+
+
+/********** Medium devices only **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+        float: left;
+    }
+    .col-md-1 {
+        width: 8.33%;
+    }
+    .col-md-2 {
+        width: 16.66%;
+    }
+    .col-md-3 {
+        width: 25%;
+    }
+    .col-md-4 {
+        width: 33.33%;
+    }
+    .col-md-5 {
+        width: 41.66%;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-7 {
+        width: 58.33%;
+    }
+    .col-md-8 {
+        width: 66.66%;
+    }
+    .col-md-9 {
+        width: 74.99%;
+    }
+    .col-md-10 {
+        width: 83.33%;
+    }
+    .col-md-11 {
+        width: 91.66%;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+
+/********** Mobile only **********/
+
+@media (max-width: 767px) {
+    .col-sm-1,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7,
+    .col-sm-8,
+    .col-sm-9,
+    .col-sm-10,
+    .col-sm-11,
+    .col-sm-12 {
+        float: left;
+    }
+    .col-sm-1 {
+        width: 8.33%;
+    }
+    .col-sm-2 {
+        width: 16.66%;
+    }
+    .col-sm-3 {
+        width: 25%;
+    }
+    .col-sm-4 {
+        width: 33.33%;
+    }
+    .col-sm-5 {
+        width: 41.66%;
+    }
+    .col-sm-6 {
+        width: 50%;
+    }
+    .col-sm-7 {
+        width: 58.33%;
+    }
+    .col-sm-8 {
+        width: 66.66%;
+    }
+    .col-sm-9 {
+        width: 74.99%;
+    }
+    .col-sm-10 {
+        width: 83.33%;
+    }
+    .col-sm-11 {
+        width: 91.66%;
+    }
+    .col-sm-12 {
+        width: 100%;
+    }
+}
